@@ -4,78 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Legal Solution</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="./tailwind/tailwind.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
-<body class="max-w-1170">
+<body>
     <header>
-        <nav class="max-w-1170 flex justify-around mt-10">
-            <div><img src="./images/logo2.png" alt=""></div>
+        <nav class="navbar">
             <div>
-                <ul class="flex gap-30">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Cases</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Contact Us</a></li>
-                </ul>
-                </div>
-                <div><button class="w-3xs h-3/2 text-lg font-semibold text-white bg-[#B68C5A] rounded-lg">Free Consultation</button>
-                </div>
+                <img src="./images/logo2.png" alt=""></div>
+            <div>
+                <ul>
+                    <li><a href="">Home ></a></li>
+                    <li><a href="">Services ></a></li>
+                    <li><a href="">Cases ></a></li>
+                    <li><a href="">Blog ></a></li>
+                    <li><a href="">Contact Us  ></a></li>
+                </ul></div>
+            <div>
+                <button class="btn-primary">Free Consultation</button>
+            </div>
             </div>
         </nav>
-        <div class="justify-items-center mt-[70px]"><img src="./images/banner.png" alt=""></div>
+        <section>
+        <div class="image-container">
+            <img src="./images/banner.png" alt="">
+            <div class="img-2"><img src="./images/Rectangle 5.png" alt=""></div>
+        <div class="text-overlay">
+            <h3 class="text-title">We Provide Effective Legal Solutions</h3>
+            <p class="description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+          <form>
+              <label for="Search"></label>
+              <input class="input-1" type="text" id=""name="">
+              <input class="input-2" type="submit" value="Search">
+          </form>
+        </div>
+        </section>
     </header>
-
-    <main class=" justify-items-center  mt-[120px]">
-    <div>
-          <h3 class="text-4xl mb-[24px] font-extrabold decoration-[#707070]">The Legal Practice Area</h3>
+    <main>
+    <div class="c2">
+          <h3>The Legal Practice Area</h3>
           <p>There are many variations of passages of Lorem Ipsum available, but the majority have<br>suffered alteration in some form, by injected humour.</p>
     </div>
-
-
-
- <section>
-     <div class="grid grid-cols-3 max-w-[1170px] mt-[120px] h-[998px]">
-          
-        <div class="p-[71px] border-blue-600 border-4 w-[401px] h-[499px]">
+ <section class="card">
+        <div class="all-card">
             <img src="./images/business.png" alt="">
             <h3>Business Law</h3>
             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
             <img src="./images/Frame.png" alt="">
         </div>
 
-        <div class="p-[71px]">
+        <div class="all-card card-2">
             <img src="./images/criminal.png" alt="">
             <h3>Criminal Law</h3>
             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
             <img src="./images/Frame.png" alt="">
         </div>
-        <div class="p-[71px]">
+        <div class="all-card">
             <img src="./images/child.png" alt="">
             <h3>Child Support</h3>
             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
             <img src="./images/Frame.png" alt="">
         </div>
-        <div class="p-[71px]">
+        <div class="all-card">
             <img src="./images/education.png" alt="">
             <h3>Education Law</h3>
             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
             <img src="./images/Frame.png" alt="">
         </div>
-        <div class="p-[71px]">
+        <div class="all-card">
             <img src="./images/divorce.png" alt="">
             <h3>Divorce Law</h3>
             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
             <img src="./images/Frame.png" alt="">
         </div>
-        <div class="p-[71px]">
+        <div class="all-card">
             <img src="./images/tax.png" alt="">
             <h3>Tax Law</h3>
             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
             <img src="./images/Frame.png" alt="">
         </div>
-    </div>
+    </section>
+     <section>
+            <div class="client">
+                <h3 class="client-title">What Our Client Say</h3>
+                <p class="client-des">There are many variations of passages of Lorem Ipsum available, but the majority have <br>suffered alteration in some form, by injected humour.</p>
+                <img class="ban-2" src="./images/banner.png" alt="">
+            </div>
     </section>
 
     </main>
